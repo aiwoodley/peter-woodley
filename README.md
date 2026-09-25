@@ -13,7 +13,9 @@ Personal brand site for Peter Woodley. It is plain static HTML/CSS/JS with no bu
 
 ## What Peter must approve before going live
 - [ ] Photos from portfolio-media/ (01-alaska … 10-donda). They are in the Muse workspace, not on this machine. Drop them into `/assets/` and I'll wire them in
-- [ ] Hero portrait
+- [x] Hero portrait: cropped from the DigiLabs suits photo (Paul sent it). Peter to approve or swap
+- [x] Joint photos added: Alaska glacier + waterfall, Heat game, morning run, booth, DigiLabs suits
+- Skipped: photos with third parties (Alaska bar trio, arena selfie with two friends). Need their OK before publishing
 - [ ] Instagram reel URLs (e-waste mission, plus Paris/Alaska/running) for the official IG embeds
 - [ ] FSU undergrad major and years for both degrees
 - [ ] Crandon triathlon year
