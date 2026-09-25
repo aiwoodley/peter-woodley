@@ -196,3 +196,7 @@ h3{font-size:1.35rem}
 @media (max-width:760px){.twin-band{grid-template-columns:1fr}}
 .passions .g-item img{position:absolute;inset:0}
 .passions .g-item.ph figcaption{position:absolute}
+
+.v-photo img{aspect-ratio:auto;max-height:520px;object-position:center 20%}
+.hero-portrait img{object-position:center 30%}
+.v-feature{align-items:start}

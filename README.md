@@ -13,7 +13,10 @@ Personal brand site for Peter Woodley. It is plain static HTML/CSS/JS with no bu
 
 ## What Peter must approve before going live
 - [ ] Photos from portfolio-media/ (01-alaska … 10-donda). They are in the Muse workspace, not on this machine. Drop them into `/assets/` and I'll wire them in
-- [x] Hero portrait: cropped from the DigiLabs suits photo (Paul sent it). Peter to approve or swap
+- [x] Hero portrait: chess/plants photo (IMG_5098, Peter's pick set)
+- [x] Peter's 10 photos added: Alaska, LA statue, Welcome to LA, museum painting, beach, chess, boat at sunset, floral art, Louvre, Eiffel
+- [ ] Captions that need Peter's confirmation: whether the Eiffel/Louvre shots are from the 2024 Olympics trip, where the boat/skyline shot was taken, which arena the LA statue is at
+- [ ] Still needed: Crandon triathlon, FSU graduation, food photos
 - [x] Joint photos added: Alaska glacier + waterfall, Heat game, morning run, booth, DigiLabs suits
 - Skipped: photos with third parties (Alaska bar trio, arena selfie with two friends). Need their OK before publishing
 - [ ] Instagram reel URLs (e-waste mission, plus Paris/Alaska/running) for the official IG embeds
