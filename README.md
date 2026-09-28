@@ -1,35 +1,29 @@
 # peter-woodley
 
-Personal brand site for Peter Woodley. It is plain static HTML/CSS/JS with no build step, deployed on Netlify.
+Peter Woodley's personal brand site. Plain static HTML/CSS/JS, deployed on Netlify (site `peter-woodley`, account info@woodleysolutions.tech). **Status: preview (noindex). Peter approves before launch.**
 
-**Status: DRAFT / preview.** Per Peter's brief, nothing launches until Peter approves it.
+## Structure (v2, business-first rebuild)
+- `index.html`: single page. Hero with a "what brings you here" picker, then services with a call-to-action per venture, process, background, about, twin cross-link, and contact doors plus a form
+- `styles.css` is this site's design; the two sites are intentionally different
+- `links.js` holds the **Substack + affiliate toolkit config**. Both sections stay hidden until real entries are added. The same file is in both repos, so keep them in sync
+- `v1-photo-portfolio` git tag = the old photo-heavy version
 
-## Links out to
-- DigiLabs TechTank: https://www.digi-labs.org
-- DigiLabs ITAD: https://digilabs-itad.netlify.app
-- Woodley Solutions / Woodley Brothers Networks: https://woodleynetworkingsolutions.netlify.app
-- Reflex Sports: https://reflexsports.co (**currently returns 404, so fix it or pull the link before launch**)
-- Paul's site: https://paul-woodley.netlify.app
+## Inquiry routing
+- Network quote → woodleynetworkingsolutions.netlify.app/#contact
+- ITAD pickup → digilabs-itad.netlify.app/#intake (754-274-6614)
+- Schools → digi-labs.org/pricing#schools
+- Reflex Sports → pwoodley@reflexsports.co (Peter's site only)
+- Everything else → Netlify form on this site (reply promise: 1 business day)
 
-## What Peter must approve before going live
-- [ ] Photos from portfolio-media/ (01-alaska … 10-donda). They are in the Muse workspace, not on this machine. Drop them into `/assets/` and I'll wire them in
-- [x] Hero portrait: chess/plants photo (IMG_5098, Peter's pick set)
-- [x] Peter's 10 photos added: Alaska, LA statue, Welcome to LA, museum painting, beach, chess, boat at sunset, floral art, Louvre, Eiffel
-- [ ] Captions that need Peter's confirmation: whether the Eiffel/Louvre shots are from the 2024 Olympics trip, where the boat/skyline shot was taken, which arena the LA statue is at
-- [ ] Still needed: Crandon triathlon, FSU graduation, food photos
-- [x] Joint photos added: Alaska glacier + waterfall, Heat game, morning run, booth, DigiLabs suits
-- Skipped: photos with third parties (Alaska bar trio, arena selfie with two friends). Need their OK before publishing
-- [ ] Instagram reel URLs (e-waste mission, plus Paris/Alaska/running) for the official IG embeds
-- [ ] FSU undergrad major and years for both degrees
-- [ ] Crandon triathlon year
-- [ ] Caption for 10-donda.jpg
-- [ ] KIPP Miami: confirm the partner is fine with being named publicly (school + minors). No student photos or names
-- [ ] Location framing: the brief says "Tallahassee-based" but the story arc ends in Miami. Which one?
-- [ ] Reflex Sports wording. Keep it high-level: no athlete names, especially minors
-- [ ] Whether Woodley Solutions belongs on your site (you asked for all 3 ventures; I included it)
-- [ ] Approve all copy (it's written in your voice, so change anything that doesn't sound like you)
+## Affiliate links
+Add them to `links.js` → `toolkit`. Every link renders with `rel="sponsored"`, an "(affiliate link)" label, and the disclosure line (FTC). Amazon Associates also requires the exact sentence "As an Amazon Associate I earn from qualifying purchases." If any link is Amazon, append it to `disclosure`.
 
 ## Launch
 1. Remove `<meta name="robots" content="noindex, nofollow">` from `index.html` and the `X-Robots-Tag` header from `netlify.toml`
-2. Remove the `.draft-bar` div
-3. Push to `main`. Netlify auto-deploys
+2. Turn on form email notifications: Netlify → Site → Forms → Notifications
+
+## Peter to confirm
+- [ ] Copy is in his voice
+- [ ] KIPP Miami named publicly: confirm the school is OK with it
+- [ ] reflexsports.co is 404; the site uses email only, with no link to the domain, until that's fixed
+- [ ] Public speaking removed per request
